@@ -1,0 +1,80 @@
+.container {
+    justify-content: center;
+    margin: 0rem 10rem;
+    display: flex;
+    min-height: 60vh;
+}
+
+.filterside {
+    width: 20%;
+    padding: 1rem;
+}
+
+.main-list {
+    width:80%;
+    padding: 1rem;
+}
+
+.form-ctl {
+    margin: 10px;
+    
+}
+
+.form-ctl select {
+    background-color: #f2f2f2;
+    padding: 1rem;
+
+    
+}
+
+.filter-card {
+    border: 1px solid var(--primary-color);
+    padding: 0.6rem;
+   
+
+}
+
+.filter-card .heading {
+    padding: 10px;
+    font-weight: bold;
+    color : var(--text-color);
+}
+
+.filter-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.search-btn {
+    margin: 0;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+    
+}
+
+.search-btn:hover {
+    background-color: white;
+    color: var(--text-color)
+}
+
+.listing-heading {
+    background-color: #f2f2f2;
+    border-left: 6px solid var(--primary-color);
+    padding: 10px 10px 10px 20px;
+  
+    
+}
+
+.section-title .head {
+    text-align: center;
+    font-weight: bold;
+    color : var(--text-color);
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.section-title .content {
+    text-align: center;
+    margin-bottom: 1rem;
+}

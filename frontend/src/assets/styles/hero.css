@@ -1,0 +1,80 @@
+.hero {
+    position: relative;
+    height: 80vh;
+    overflow: hidden;
+   
+}
+
+.cardtitle {
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    background-color: var(--primary-color);
+    padding: 0.8rem 5rem;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+
+
+
+.hero::before {
+    content:'';
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    background-image: url(../img/hero1.jpeg);
+    height: 80vh;
+    background-size: cover;
+   
+    filter:blur(2px);
+}
+
+.card {
+    background-color: white;
+    display: inline-block;
+    padding: 2rem;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    border-radius: 2px;
+    box-shadow: 5px 5px 10px black;
+    
+}
+
+.form-ctl label {
+    font-size: 1rem;
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+.form-ctl {
+    display: flex;
+    flex-direction: column;
+}
+
+.form {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.form-ctl input {
+    border: none;
+    margin-top: 0.6rem;
+}
+
+.form-ctl select {
+    border: none;
+    margin-top: 0.6rem;
+}
+
+.search-btn {
+    background-color: var(--primary-color);
+    padding: 0.4rem 1.4rem;
+    color: white;
+    border: 1px solid var(--primary-color);
+    border-radius: 30px;
+    margin-left: 4rem;
+}
